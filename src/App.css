@@ -7,10 +7,11 @@
 	color: #ffffff;
 }
 .navlinks:hover {
-	color: #03045e;
+	color: #240046;
 }
 .nav-border:hover {
-	border-color: #03045e;
+	border-color: #0cb98b;
+	transition: .5s;
 }
 
 /* *Home section */
@@ -25,4 +26,9 @@
 /* *Footer section */
 .footer {
 	background-color: #6c63ff;
+}
+
+.animate:hover {
+	-webkit-animation: pulse 1s;
+	animation: pulse 1s;
 }

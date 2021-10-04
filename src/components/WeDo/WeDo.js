@@ -11,21 +11,21 @@ const WeDo = () => {
 			</h1>
 			<div className="flex justify-evenly flex-col items-center md:flex-row ">
 				<div className="w-1/4 flex flex-col items-center mb-2">
-					<img src={curriculumc} alt="!" className="h-24" />
+					<img src={curriculumc} alt="!" className="h-24 animate" />
 					<h2 className=" my-2 text-2xl font-bold text-gray-700">Curriculumn</h2>
 					<p className="text-center text-gray-600">
 						We try to made the simplest curriculumn to lear language very easily
 					</p>
 				</div>
 				<div className="w-1/4 flex flex-col items-center mb-2">
-					<img src={teacher} alt="!" className="h-24" />
+					<img src={teacher} alt="!" className="h-24 animate" />
 					<h2 className=" my-2 text-2xl font-bold text-gray-700">Instuctor</h2>
 					<p className="text-center text-gray-600">
 						We have the most qualified and experienced teacher for you.
 					</p>
 				</div>
 				<div className="w-1/4 flex flex-col items-center mb-2">
-					<img src={certificate} alt="!" className="h-24" />
+					<img src={certificate} alt="!" className="h-24 animate" />
 					<h2 className=" my-2 text-2xl font-bold text-gray-700">Certification</h2>
 					<p className="text-center text-gray-600">
 						We Will give you a certificate after completion the course.

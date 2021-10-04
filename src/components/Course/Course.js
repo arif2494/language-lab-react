@@ -5,7 +5,7 @@ const Course = (props) => {
 	return (
 		// Single course
 		<div className="border-2 border-solid rounded-xl shadow-2xl">
-			<img className="w-full mx-auto rounded-xl h-80" src={img} alt="" />
+			<img className="w-full mx-auto rounded-xl h-80 animate" src={img} alt="" />
 			<h3 className="text-2xl font-bold my-2 text-gray-700 border-b-2 border-solid pb-2 pl-2">{name}</h3>
 			<p className="p-2 text-gray-600 font-medium">{description}</p>
 			<div className="flex justify-evenly  border-t-2 border-solid p-2">

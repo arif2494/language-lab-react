@@ -26,7 +26,7 @@ const Event = (props) => {
 				<p className="text-gray-600 font-medium">{description}</p>
 			</div>
 			<div className="pb-4 lg:pb-0">
-				<img src={img} alt="!" />
+				<img className="animate" src={img} alt="!" />
 			</div>
 		</div>
 	);

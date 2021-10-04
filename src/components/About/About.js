@@ -29,7 +29,7 @@ const About = () => {
 				</div>
 			</div>
 
-			<img className="mx-auto my-8" src="https://source.unsplash.com/vdXMSiX-n6M/1170x550" alt="" />
+			<img className="mx-auto my-8 animate" src="https://source.unsplash.com/vdXMSiX-n6M/1170x550" alt="" />
 
 			<blockquote className="text-center text-4xl italic  text-gray-400 mb-3">
 				“Cras tristique turpis justo, eu consequat sem <br /> adipiscing ut. Donec posuere bibendum metus.”
