@@ -14,8 +14,8 @@ const Header = () => {
 				<NavLink className="navlinks text-4xl font-bold" to="/course">
 					Courses
 				</NavLink>
-				<NavLink className="navlinks text-4xl font-bold" to="/event">
-					Event
+				<NavLink className="navlinks text-4xl font-bold" to="/events">
+					Events
 				</NavLink>
 			</nav>
 		</div>

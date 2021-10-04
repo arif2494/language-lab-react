@@ -5,7 +5,7 @@ import Footer from './components/Footer/Footer';
 import './App.css';
 import About from './components/About/About';
 import Courses from './components/Courses/Courses';
-import Event from './components/Event/Event';
+import Events from './components/Events/Events';
 import PageNotFound from './components/PageNotFount/PageNotFound';
 
 function App() {
@@ -23,8 +23,8 @@ function App() {
 					<Route path="/course">
 						<Courses />
 					</Route>
-					<Route path="/event">
-						<Event />
+					<Route path="/events">
+						<Events />
 					</Route>
 					<Route path="*">
 						<PageNotFound />
