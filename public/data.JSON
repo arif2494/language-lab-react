@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Spanish Language",
+    "description": "The dialect spoken by most Spanish speakers is basically Castilian, and indeed Castellano is still the name used for the language in several American countries. The other languages spoken in Spain include Aragonese, Asturian, Basque, Caló, Catalan-Valencian-Balear, Extremaduran, Fala, and Galician.",
+    "price": 69,
+    "seat": 17,
+    "level": "Begainer",
+    "img": "https://source.unsplash.com/8MMtYM_3xMY/300x300"
+  },
+  {
+    "id": 2,
+    "name": "English Language",
+    "description": "The English language is an Indo-European language in the West Germanic language group. Modern English is widely considered to be the lingua franca of the world and is the standard language in a wide variety of fields, including computer coding, international business, and higher education.",
+    "price": 59,
+    "seat": 13,
+    "level": "Intermadiate",
+    "img": "https://source.unsplash.com/2enBTsIVhUU/300x300"
+  },
+  {
+    "id": 3,
+    "name": "Arabic Language",
+    "description": "Arabic (عربي) is a Semitic language, like Hebrew and Aramaic. Around 292 million people speak it as their first language. Many more people can also understand it as a second language. The Arabic language has its own alphabet written from right to left, like Hebrew.",
+    "price": 79,
+    "seat": 7,
+    "level": "Begainer",
+    "img": "https://source.unsplash.com/wdPP498hHQ4/300x300"
+  },
+  {
+    "id": 4,
+    "name": "Bangla Language",
+    "description": "Bengali also known by its endonym Bangla (বাংলা, Bengali pronunciation: [ˈbaŋla]), is an Indo-Aryan language and is the lingua franca of the Bengal region of the Indian subcontinent. It is the official and most widely spoken language of Bangladesh and the second most widely spoken of the 22 scheduled languages of India, after Hindi.",
+    "price": 19,
+    "seat": 15,
+    "level": "Intermadiate",
+    "img": "https://source.unsplash.com/Caahugp6eZ8/300x300"
+  },
+  {
+    "id": 5,
+    "name": "German Language",
+    "description": "German might not be as familiar to English speakers as Spanish, but its still one of the easiest languages to learn. Like Spanish, its also a phonetic language, which makes pronunciation easy to figure out. ... All of these things can make learning German easier in the beginning.",
+    "price": 49,
+    "seat": 12,
+    "level": "Beginning",
+    "img": "https://source.unsplash.com/cUF4SSxY_KA/300x300"
+  },
+  {
+    "id": 6,
+    "name": "Hindi Language",
+    "description": "Hindi belongs to the Indo-Aryan branch of the Indo-European family of languages. Hindi, along with English, are the official languages of India. Hindi is also the official language of Bihar, Delhi, Haryana, Jharkhand, Madhya Pradesh, Rajasthan, Uttarakhand and Uttar Pradesh.",
+    "price": 19,
+    "seat": 52,
+    "level": "Intermadiate",
+    "img": "https://source.unsplash.com/eU4pipU_8HA/300x300"
+  },
+  {
+    "id": 7,
+    "name": "Chinese Language",
+    "description": "When it comes to the issue of grammatical complexity, Chinese is really one of the easiest languages there is to learn. Unlike most European languages, it does not feature complicated constructs like cases and genders. It also treats tenses in a very simplistic way.",
+    "price": 49,
+    "seat": 32,
+    "level": "Beginning",
+    "img": "https://source.unsplash.com/LH_Q8DBkgZ0/300x300"
+  },
+  {
+    "id": 8,
+    "name": "Japanese Language",
+    "description": "Now here is the thing. Japanese is considered one of the most difficult languages to learn. It has a different writing system than English, a completely different grammar structure, and relies heavily on cultural context and understanding.",
+    "price": 89,
+    "seat": 15,
+    "level": "Intermadiate",
+    "img": "https://source.unsplash.com/Bxzrd0p6yOM/300x300"
+  }
+]
