@@ -1,15 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext } from 'react';
+import { CourseData } from '../../App';
 import HomeCourse from '../HomeCourse/HomeCourse';
 import Showcase from '../Showcase/Showcase';
 import WeDo from '../WeDo/WeDo';
 // import bgImg from '../../img/classroom.jpg';
 const Home = () => {
-	// fetch courses data
-	const [ course, setCourse ] = useState([]);
+	// Receive data by context api
+	const course = useContext(CourseData);
+	// display firtst 3  data
 	const courses = course.slice(0, 3);
-	useEffect(() => {
-		fetch('data.json').then((res) => res.json()).then((data) => setCourse(data));
-	}, []);
 	return (
 		<div>
 			{/* home page showcase */}

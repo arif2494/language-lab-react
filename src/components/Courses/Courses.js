@@ -1,12 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext } from 'react';
+import { CourseData } from '../../App';
 import Course from '../Course/Course';
 
 const Courses = () => {
-	// Fetch all courses
-	const [ courses, setCourses ] = useState([]);
-	useEffect(() => {
-		fetch('data.json').then((res) => res.json()).then((data) => setCourses(data));
-	}, []);
+	// Receive Data by context api
+	const courses = useContext(CourseData);
 	return (
 		<div>
 			<h1 className="text-center my-4 text-4xl font-medium ">
