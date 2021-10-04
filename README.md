@@ -14,3 +14,4 @@ This is Language Learning Website. Here You CAn Find 9 World WIde Popular Laguag
 - The Site Is Very Fast
 - Easy To USE & User Friendly 
 - Used SVG Image For Optimization
+- Fully Responsive UI

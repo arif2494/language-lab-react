@@ -29,7 +29,7 @@ function App() {
 						<Route path="/about">
 							<About />
 						</Route>
-						<Route path="/course">
+						<Route path="/courses">
 							<Courses />
 						</Route>
 						<Route path="/events">

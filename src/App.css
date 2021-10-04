@@ -23,11 +23,6 @@
 	background-size: cover;
 }
 
-/* *Footer section */
-.footer {
-	background-color: #6c63ff;
-}
-
 .animate:hover {
 	-webkit-animation: pulse 1s;
 	animation: pulse 1s;
