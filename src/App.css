@@ -1,11 +1,25 @@
 /** Header section */
 .navbar {
-	border-bottom: 1px;
+	background-color: #6c63ff;
 }
 .navlinks {
 	margin: 15px;
-	color: #2a9d8f;
+	color: #ffffff;
 }
 .navlinks:hover {
 	color: #03045e;
+}
+
+/* *Home section */
+.bg-img {
+	height: 500px;
+	background-image: url('/src/img/classroom.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+/* *Footer section */
+.footer {
+	background-color: #6c63ff;
 }

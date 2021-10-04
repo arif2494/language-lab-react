@@ -3,8 +3,8 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
 	return (
-		<div>
-			<nav className="container mx-auto text-center">
+		<div className="navbar">
+			<nav className="container mx-auto text-center py-6 ">
 				<NavLink className="navlinks text-4xl font-bold" to="/">
 					Home
 				</NavLink>

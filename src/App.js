@@ -4,7 +4,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import './App.css';
 import About from './components/About/About';
-import Course from './components/Course/Course';
+import Courses from './components/Courses/Courses';
 import Event from './components/Event/Event';
 import PageNotFound from './components/PageNotFount/PageNotFound';
 
@@ -21,7 +21,7 @@ function App() {
 						<About />
 					</Route>
 					<Route path="/course">
-						<Course />
+						<Courses />
 					</Route>
 					<Route path="/event">
 						<Event />
