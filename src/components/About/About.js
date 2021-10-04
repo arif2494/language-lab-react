@@ -4,12 +4,12 @@ const About = () => {
 	return (
 		<div className="container mx-auto">
 			<h1 className="text-center text-4xl font-medium my-8">
-				{' '}
 				<span className="border-l-4 border-indigo-400 pl-2">ABOUT US</span>
 			</h1>
 			<p className="text-center font-medium">OUR STORY</p>
 
 			<p className="text-center text-sm text-gray-500">It is a long established fact that a reade.</p>
+			{/* Key details */}
 			<div className="flex justify-evenly my-6 divide-x divide-light-blue-400">
 				<div className=" px-6 text-center">
 					<h5 className="font-medium text-2xl">55000</h5>

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Event from '../Event/Event';
 
 const Events = () => {
+	// Fetch event data
 	const [ events, setEvents ] = useState([]);
 	useEffect(() => {
 		fetch('event.json').then((res) => res.json()).then((data) => setEvents(data));

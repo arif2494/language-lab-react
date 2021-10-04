@@ -11,6 +11,7 @@ import PageNotFound from './components/PageNotFount/PageNotFound';
 function App() {
 	return (
 		<div className="App">
+			{/* React ROuters */}
 			<Router>
 				<Header />
 				<Switch>

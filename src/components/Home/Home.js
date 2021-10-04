@@ -4,6 +4,7 @@ import Showcase from '../Showcase/Showcase';
 import WeDo from '../WeDo/WeDo';
 // import bgImg from '../../img/classroom.jpg';
 const Home = () => {
+	// fetch courses data
 	const [ course, setCourse ] = useState([]);
 	const courses = course.slice(0, 3);
 	useEffect(() => {
@@ -11,8 +12,11 @@ const Home = () => {
 	}, []);
 	return (
 		<div>
+			{/* home page showcase */}
 			<Showcase />
+			{/* What we do */}
 			<WeDo />
+			{/* display 3 courses */}
 			<h1 className="text-center text-4xl font-bold mb-10">
 				<span className="border-l-4 border-indigo-400 pl-2">OUR COURSES</span>
 			</h1>

@@ -9,6 +9,9 @@
 .navlinks:hover {
 	color: #03045e;
 }
+.nav-border:hover {
+	border-color: #03045e;
+}
 
 /* *Home section */
 .bg-img {
