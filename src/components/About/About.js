@@ -3,26 +3,29 @@ import React from 'react';
 const About = () => {
 	return (
 		<div className="container mx-auto">
-			<h1 className="text-center text-4xl font-medium my-8">About Us</h1>
+			<h1 className="text-center text-4xl font-medium my-8">
+				{' '}
+				<span className="border-l-4 border-indigo-400 pl-2">ABOUT US</span>
+			</h1>
 			<p className="text-center font-medium">OUR STORY</p>
 
-			<p className="text-center text-sm">It is a long established fact that a reade.</p>
+			<p className="text-center text-sm text-gray-500">It is a long established fact that a reade.</p>
 			<div className="flex justify-evenly my-6 divide-x divide-light-blue-400">
 				<div className=" px-6 text-center">
 					<h5 className="font-medium text-2xl">55000</h5>
-					<p>FOREIGN FOLLOWERS</p>
+					<p className="text-gray-500">FOREIGN FOLLOWERS</p>
 				</div>
 				<div className=" px-6 text-center">
 					<h5 className="font-medium text-2xl">60</h5>
-					<p>CERTIFIED TEACHER</p>
+					<p className="text-gray-500">CERTIFIED TEACHER</p>
 				</div>
 				<div className=" px-6 text-center">
 					<h5 className="font-medium text-2xl">2240</h5>
-					<p>STUDENTS ENROLLED</p>
+					<p className="text-gray-500">STUDENTS ENROLLED</p>
 				</div>
 				<div className=" px-6 text-center">
 					<h5 className="font-medium text-2xl">8</h5>
-					<p>COMPLETE COURSES</p>
+					<p className="text-gray-500">COMPLETE COURSES</p>
 				</div>
 			</div>
 

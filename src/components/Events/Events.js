@@ -8,7 +8,9 @@ const Events = () => {
 	}, []);
 	return (
 		<div className="container mx-auto">
-			<h1 className="text-3xl text-center my-6 font-medium">Our Upcomig Events</h1>
+			<h1 className="text-3xl text-center my-6 font-medium">
+				<span className="border-l-4 border-indigo-400 pl-2">OUR UPCOMING EVENTS</span>
+			</h1>
 			<div>{events.map((event) => <Event event={event} key={event.id} />)}</div>
 		</div>
 	);
